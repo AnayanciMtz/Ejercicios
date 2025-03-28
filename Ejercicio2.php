@@ -3,12 +3,14 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Información de PHP</title>
+    <title>Hola Mundo</title>
 </head>
 <body>
-    <h1>Detalles de configuración de PHP</h1>
-    <?php 
-        phpinfo(); 
-    ?>
+    <h1>El famoso script Hello World</h1>
+    <p>
+        <?php
+            echo "Hola Mundo!";
+        ?>
+    </p>
 </body>
 </html>
